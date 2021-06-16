@@ -1,0 +1,36 @@
+<html>
+	<style>
+		@keyframes updown{
+			0%{ top: 25%; }
+			50%{ top: 50%; }
+			100%{ top: 25%; }
+		}
+		body{
+			background-color: #53a5e0;
+			color: #ffffff;
+			font: 100% monospace;
+			text-align:center;
+		}
+		.main{
+			position:fixed;
+			left:0;
+			right:0;
+			font: 700% monospace;
+			animation: updown 2s ease-in-out infinite;
+		}
+		p{
+			position:fixed;
+			left:0;
+			right:0;
+			top:80%;
+		}
+	</style>
+	<body>
+		<div class='main'>
+			H2O
+		</div>
+		<p>
+			loading...
+		</p>
+	</body>
+</html>
